@@ -2,9 +2,10 @@
 # import re
 #
 # def get_filename(file_path):
-#     return re.search(r'^[A-Za-z]{1,8}\.[A-Za-z]{1,3}$', filepath).group()
+#     return re.search(r'\w+\.+\w+',file_path).group()
 #
-# get_filename()
+# result = get_filename("C:/Projects/pil_tests/ascii/edabit.txt")
+# print(result)
 
 
 
